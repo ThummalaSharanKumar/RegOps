@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-=======
-# RegOps
-
->>>>>>> a2990a76ccb0a6f69be8e32dcc3eff7cd169b124
-# RegOps Prototype — 3-Day Hackathon Slice
+# RegOps Prototype — 
 
 This is the working slice for the demo: **ingest a SEBI circular → extract
 structured obligations → diff against a baseline**. No database, no
