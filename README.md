@@ -63,19 +63,3 @@ Opens a browser tab with three tabs: Ingest & Extract, Baseline Register,
 Diff. Walk through them in order for the recording — this is the "live"
 version of the CLI steps above, and it's what makes the demo look like a
 real product instead of terminal output.
-
-## Notes for the 3-day build
-
-- **Start small.** Use the `max_chunks` slider in the UI (or just slice the
-  chunks list in the CLI) to process 5–10 clauses, not the whole circular —
-  faster iteration, and the demo video only needs to show it working, not
-  process the entire document.
-- **The extraction prompt (`extract.py`) is the highest-leverage thing to
-  tune.** If obligations look too generic or miss things, that's a prompt
-  quality issue, not an architecture issue — iterate there first.
-- **If Gemini's free tier rate-limits you** during heavy testing, that's
-  normal — space out requests or switch to Anthropic's trial credit for a
-  burst of testing before the final recording.
-- File structure is intentionally flat for speed. Don't over-engineer this
-  before Day 3 — the deck and business model matter more than code
-  architecture at this stage.
